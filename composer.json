@@ -1,0 +1,17 @@
+{
+  "name": "iamwebdesigner/yii2-blueimp-gallery",
+  "description": "BlueImp Gallery Widget",
+  "license": "Apache 2.0",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.2",
+    "bower-asset/blueimp-gallery": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "iamwebdesigner\\blueimp\\": "src"
+    }
+  }
+
+}
